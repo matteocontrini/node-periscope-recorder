@@ -1,0 +1,22 @@
+{
+  "name": "node-periscope-recorder",
+  "version": "0.1.0",
+  "description": "Get Periscope lives from Twitter and record them",
+  "main": "recorder.js",
+  "keywords": [
+    "periscope",
+    "stream",
+    "recorder"
+  ],
+  "author": "Matteo Contrini <m.contrini@gmail.com>",
+  "license": "MIT",
+  "repository": "matteocontrini/node-periscope-recorder",
+  "bugs": {
+    "url": "https://github.com/matteocontrini/node-periscope-recorder/issues"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.0.0-rc3",
+    "node-periscope-stream": "^0.1.4",
+    "twit": "^1.1.20"
+  }
+}
